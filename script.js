@@ -7,7 +7,7 @@ function converte() {
     let heading = document.querySelector('.js-heading').innerHTML = 'PIXELS';
     let resultElement = document.querySelector('.js-result').innerHTML = userInput * 96;
     console.log(resultElement);
-    let subIntro = document.querySelector('.js-sub-cal').innerHTML = 'We all so Concert Inches To pixels Manually using Formula 1 in = 96 px';
+    let subIntro = document.querySelector('.js-sub-cal').innerHTML = 'We all so Convert Inches To pixels Manually using Formula 1 in = 96 px';
 
 
     if (userInput === '') {
@@ -42,7 +42,7 @@ function converteCm() {
     let headingCm = document.querySelector('.js-headingCm').innerHTML = 'PIXELS';
     let resultElementCm = document.querySelector('.js-resultCm').innerHTML = (userInputCm * 96) / 2.54;
     console.log(resultElementCm);
-    let subIntroCm = document.querySelector('.js-sub-calCm').innerHTML = 'We all so Concert Centimeter To pixels Manually using Formula 1 px = 96, 1cm*96 /2.5';
+    let subIntroCm = document.querySelector('.js-sub-calCm').innerHTML = 'We all so Convert Centimeter To pixels Manually using Formula 1 px = 96, 1cm*96 /2.5';
 
 
     if (userInputCm === '') {
