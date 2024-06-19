@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="bs5/css/bootstrap.min.css">
+
+
+    <!-- vvvvvv css file vvvvvvv -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+
+    <!-- font awesom icon -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+
+
+<body>
+
+
+
+
+
+
+
+    <h1 class="intro">
+        inches to pixels converter
+    </h1>
+
+    <div class="sub-container">
+        <p class="sub-intro">
+            You Can Also Converter Pixels To Inch. And Centimeter To Pixels.
+        </p>
+    </div>
+
+
+
+    <!-- CONVERTING PX TO INCHES -->
+
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="js-container converter-cotainer " id="toin">
+                <h2>inches to pixels</h2>
+
+                <div class="user-input">
+
+                    <label><strong>Enter inches</strong></label>
+                    <br>
+                    <input class="js-input" type="number" placeholder="inches">
+                    <button onclick="converte()">
+           <strong>convert</strong> <i class="fa fa-cogs" aria-hidden="true"></i>
+       </button>
+
+                    <h5 class="js-heading"></h5>
+                    <h4 class="js-result"></h4>
+
+                    <p class="sub-intro-call js-sub-cal"></p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- CONVERTING  PX TO CM-->
+
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="js-containerCm converter-cotainer" id="topx">
+                <h2>Centimeter To pixels</h2>
+
+                <div class="user-input">
+
+                    <label><strong>Enter Centimeter</strong></label>
+                    <br>
+                    <input class="js-inputCm" type="number" placeholder="Centimeter">
+                    <button onclick="converteCm()">
+           <strong>convert</strong> <i class="fa fa-cogs" aria-hidden="true"></i>
+       </button>
+
+                    <h5 class="js-headingCm"></h5>
+                    <h4 class="js-resultCm"></h4>
+
+                    <p class="sub-intro-call js-sub-calCm"></p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- REVIEW PX-->
+
+
+    <div class="REVIEW-container" id="review">
+        <h2>REVIEW TO PIXELS</h2>
+
+        <p>
+            <strong>Pixel measurement</strong> refers to the use of pixels as a unit of measurement in digital imaging and displays. Here’s a breakdown of the concept
+        </p>
+
+        <p>
+            <strong>1.Pixel Definition.</strong> A pixel (short for "picture element") is the smallest unit of a digital image or display. Each pixel represents a single point in the image.
+        </p>
+
+        <p>
+            <strong>2. Resolution.</strong> The resolution of an image or display is typically defined by the number of pixels in each dimension (width × height). For example, an image with a resolution of 1920x1080 pixels has 1920 pixels horizontally
+            and 1080 pixels vertically.
+        </p>
+
+        <p>
+            <strong> 3. Pixel Density (PPI/DPI).</strong>
+            <strong>Pixels Per Inch (PPI).</strong> PPI measures the pixel density of a digital display or image, indicating how many pixels are present per inch. Higher PPI means more detail and sharper images.
+            <strong>Dots Per Inch (DPI).</strong> Often used interchangeably with PPI, DPI is a printing term that measures the number of dots per inch in a printed image.
+
+        </p>
+
+        <p>
+            <strong>4. Aspect Ratio.</strong> This is the ratio of the width to the height of the display or image, expressed as width:height (e.g., 16:9 for widescreen displays).
+        </p>
+
+        <p>
+            <strong> 5. Subpixels.</strong> Each pixel is usually composed of three subpixels (red, green, and blue), which combine to create the full spectrum of colors.
+        </p>
+
+        <p>
+            <strong>6. Measurement Tools. __Software Tools:</strong> Many software applications (like image editors) provide rulers and guides to measure dimensions in pixels.
+        </p>
+
+        <p>
+            <strong> Understanding pixel measurement</strong> is crucial in various fields, including digital photography, graphic design, web development, and display manufacturing, as it directly affects the clarity, detail, and quality of digital images
+            and screens.
+        </p>
+    </div>
+
+
+    <!-- about-container -->
+
+    <div class="about-container" id="about">
+        <h2>About Us</h2>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At quia in temporibus incidunt nulla aspernatur distinctio quaerat, officiis culpa voluptatibus possimus, sint recusandae. Asperiores voluptatemoluptatum dolorum velit tempore sit quas mollitia
+            quo quidem dignissimos ab nisi dolorem autem inventore tenetur a enim vel nemo placeat modi repellendus voluptatem, ullam ad eos beatae, consequatur vitae! Voluptatum dolorum velit tempore sit quas mollitia quo quidem dignissimos ab nisi dolorem
+            autem inventore tenetur a enim vel nemo placeat modi repellendus voluptatem, expedita nulla? Hic mollitia minima s
+        </p>
+    </div>
+
+
+    <footer>
+
+        <p class="copy">&copy; 2024 Inches To pixels Converter</p>
+        <p class="link"> <a href="#topx">[ In To Px ]</a> <a href="#tocm">[ Cm To Px ]</a> <a href="#review"> [ Review ]</a> <a href="#about"> [ About ]</a></p>
+
+        <p>
+            <a href="https://www.facebook.com/profile.php?id=100090582348959"> <i class="icon fa fa-thumbs-up"></i></a>
+            <a href="https://github.com/Rich2man"><i class="icon fa fa-code"></i></a>
+
+        </p>
+
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+
+
+    <!-- <script src="px_in.js"></script> -->
+</body>
+
+</html>

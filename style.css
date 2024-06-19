@@ -1,0 +1,174 @@
+body {
+    background-color: #0D0D0D;
+    color: #BFBFBF;
+    height: 999px;
+}
+
+
+/* introduction:: */
+
+.intro {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.sub-container {
+    margin: auto;
+}
+
+.sub-intro {
+    font-size: 22px;
+    text-align: center;
+    color: #BFBFBF;
+    line-height: 1.2;
+}
+
+
+/* taking input from User */
+
+.converter-cotainer {
+    width: 85%;
+    height: 193px;
+    margin: 48px auto;
+    background: #BFBFBF;
+}
+
+.reduce {
+    height: 310px;
+}
+
+.converter-cotainer label {
+    color: #0D0D0D;
+}
+
+.converter-cotainer input {
+    width: 120px;
+    border: none;
+    padding: 8px 10px;
+    color: #0D0D0D;
+    background: #F2F2F2;
+}
+
+.converter-cotainer h2 {
+    text-align: center;
+    padding: 24px 0px;
+    color: #0D0D0D;
+}
+
+.user-input {
+    padding: 0px 25px;
+}
+
+::placeholder {
+    color: #0D0D0D;
+}
+
+.converter-cotainer button {
+    border: none;
+    padding: 6px 12px;
+    color: #091424;
+    margin-left: 8px;
+    background: #F2F2F2;
+    font-size: 19px;
+}
+
+.converter-cotainer h5 {
+    padding: 15px 12px 0px 12px;
+    color: #0D0D0D;
+    margin-left: 8px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.converter-cotainer h4 {
+    padding: 0px 12px;
+    color: #0D0D0D;
+    margin-left: 8px;
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.sub-intro-call {
+    font-size: 16px;
+    margin-top: 24px;
+    color: #091424;
+    line-height: 1.2;
+}
+
+
+/* REVIEW-container */
+
+.REVIEW-container {
+    width: 90%;
+    height: 490px;
+    margin: 100px auto;
+    background-color: #BFBFBF;
+}
+
+.REVIEW-container h2 {
+    text-align: center;
+    padding: 20px 0px;
+    color: #091424;
+}
+
+.REVIEW-container p {
+    padding: 0px 16px;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #091424;
+}
+
+
+/* about-container */
+
+.about-container {
+    width: 90%;
+    height: 200px;
+    margin: 100px auto;
+    background-color: #BFBFBF;
+}
+
+.about-container h2 {
+    text-align: left;
+    padding: 10px 16px;
+    color: #091424;
+}
+
+.about-container p {
+    padding: 0px 16px;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #091424;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    font-size: 15px;
+    text-align: center;
+    background: #BFBFBF;
+}
+
+.copy {
+    padding-top: 20px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: #091424;
+}
+
+.link {
+    margin: 0px 0px 0px 0px;
+    font-size: 22px;
+    color: rgb(66, 94, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 22px;
+    color: #091424;
+    margin: 0px 8px;
+}
