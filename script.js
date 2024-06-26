@@ -20,7 +20,7 @@ function converte() {
 
 
     } else if (userInput < 1) {
-        alert(`Please Do You want convert ${userInput}. Sorry. check Your Inches ${userInput}`)
+        alert(`Please Do You want convert ${userInput}? Sorry, check Your Inches ${userInput}.`)
 
         let resultElement = document.querySelector('.js-result').innerHTML = '';
         let heading = document.querySelector('.js-heading').innerHTML = '';
@@ -55,7 +55,7 @@ function converteCm() {
 
 
     } else if (userInputCm < 1) {
-        alert(`Please Do You want convert ${userInputCm}. Sorry. check Your Inches ${userInputCm}`)
+        alert(`Please Do You want convert ${userInputCm}? Sorry, check Your Inches ${userInputCm}.`)
 
 
         let resultElementCm = document.querySelector('.js-resultCm').innerHTML = '';
